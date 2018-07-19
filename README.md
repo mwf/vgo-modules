@@ -3,6 +3,8 @@ Yet another vgo test project
 
 ## Refactoring modules
 
+[go#26250](https://github.com/golang/go/issues/26250) - **fixed**
+
 Let's assume we are in active development phase with versions `v0.x`.
 
 At some point we decide to move some package to a standalone module, to split the dependencies and to have better semantic structure.

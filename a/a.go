@@ -1,5 +1,5 @@
 package a
 
-const A = "A"
+const A = "Aaaaa"
 
 const AB = A + "B"

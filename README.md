@@ -3,7 +3,7 @@ Yet another vgo test project
 
 ## Upgrading modules, which dropped some dependencies
 
-[go#26474](https://github.com/golang/go/issues/26474)
+[golang/go#26474](https://github.com/golang/go/issues/26474)
 
 Consider the following flow:
 
@@ -51,6 +51,8 @@ We get an unexpected indirect dependency `github.com/mwf/vgo-modules/b v0.0.1 //
 
 
 ## Downgrading modules, which updated some dependencies
+
+[golang/go#26481](https://github.com/golang/go/issues/26481)
 
 Consider the following flow:
 

@@ -3,6 +3,8 @@ Yet another vgo test project
 
 ## Updating modules, which dropped some dependencies
 
+[go#26474](https://github.com/golang/go/issues/26474)
+
 Consider the following flow:
 
 A(v0.0.1) uses B(v0.0.1):
